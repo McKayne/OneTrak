@@ -1,0 +1,555 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7F642C192164FD3900A69907 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F642C182164FD3900A69907 /* main.m */; };
+		7F642C1C2164FD3900A69907 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F642C1B2164FD3900A69907 /* AppDelegate.m */; };
+		7F642C1F2164FD3900A69907 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F642C1E2164FD3900A69907 /* ViewController.m */; };
+		7F642C222164FD3900A69907 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F642C202164FD3900A69907 /* Main.storyboard */; };
+		7F642C242164FD3900A69907 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F642C232164FD3900A69907 /* Assets.xcassets */; };
+		7F642C272164FD3900A69907 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F642C252164FD3900A69907 /* LaunchScreen.storyboard */; };
+		7F642C322164FD3A00A69907 /* OneTrakTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F642C312164FD3A00A69907 /* OneTrakTests.m */; };
+		7F642C3D2164FD3A00A69907 /* OneTrakUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F642C3C2164FD3A00A69907 /* OneTrakUITests.m */; };
+		7F642C4B2165008500A69907 /* CustomProgressBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F642C4A2165008500A69907 /* CustomProgressBar.m */; };
+		7F642C4E216500A400A69907 /* TableViewDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F642C4D216500A400A69907 /* TableViewDataSource.m */; };
+		7F642C512165018E00A69907 /* SF-Pro-Display-Ultralight.otf in Resources */ = {isa = PBXBuildFile; fileRef = 7F642C502165018E00A69907 /* SF-Pro-Display-Ultralight.otf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7F642C2E2164FD3A00A69907 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7F642C0C2164FD3900A69907 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7F642C132164FD3900A69907;
+			remoteInfo = OneTrak;
+		};
+		7F642C392164FD3A00A69907 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7F642C0C2164FD3900A69907 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7F642C132164FD3900A69907;
+			remoteInfo = OneTrak;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7F642C142164FD3900A69907 /* OneTrak.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OneTrak.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F642C182164FD3900A69907 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7F642C1A2164FD3900A69907 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7F642C1B2164FD3900A69907 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7F642C1D2164FD3900A69907 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7F642C1E2164FD3900A69907 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7F642C212164FD3900A69907 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7F642C232164FD3900A69907 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7F642C262164FD3900A69907 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7F642C282164FD3900A69907 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7F642C2D2164FD3A00A69907 /* OneTrakTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OneTrakTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F642C312164FD3A00A69907 /* OneTrakTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OneTrakTests.m; sourceTree = "<group>"; };
+		7F642C332164FD3A00A69907 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7F642C382164FD3A00A69907 /* OneTrakUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OneTrakUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F642C3C2164FD3A00A69907 /* OneTrakUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OneTrakUITests.m; sourceTree = "<group>"; };
+		7F642C3E2164FD3A00A69907 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7F642C4A2165008500A69907 /* CustomProgressBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomProgressBar.m; sourceTree = "<group>"; };
+		7F642C4C2165008E00A69907 /* CustomProgressBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomProgressBar.h; sourceTree = "<group>"; };
+		7F642C4D216500A400A69907 /* TableViewDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewDataSource.m; sourceTree = "<group>"; };
+		7F642C4F216500B200A69907 /* TableViewDataSource.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TableViewDataSource.h; sourceTree = "<group>"; };
+		7F642C502165018E00A69907 /* SF-Pro-Display-Ultralight.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-Ultralight.otf"; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7F642C112164FD3900A69907 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F642C2A2164FD3A00A69907 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F642C352164FD3A00A69907 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7F642C0B2164FD3900A69907 = {
+			isa = PBXGroup;
+			children = (
+				7F642C162164FD3900A69907 /* OneTrak */,
+				7F642C302164FD3A00A69907 /* OneTrakTests */,
+				7F642C3B2164FD3A00A69907 /* OneTrakUITests */,
+				7F642C152164FD3900A69907 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7F642C152164FD3900A69907 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7F642C142164FD3900A69907 /* OneTrak.app */,
+				7F642C2D2164FD3A00A69907 /* OneTrakTests.xctest */,
+				7F642C382164FD3A00A69907 /* OneTrakUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7F642C162164FD3900A69907 /* OneTrak */ = {
+			isa = PBXGroup;
+			children = (
+				7F642C1A2164FD3900A69907 /* AppDelegate.h */,
+				7F642C1B2164FD3900A69907 /* AppDelegate.m */,
+				7F642C1D2164FD3900A69907 /* ViewController.h */,
+				7F642C1E2164FD3900A69907 /* ViewController.m */,
+				7F642C502165018E00A69907 /* SF-Pro-Display-Ultralight.otf */,
+				7F642C4A2165008500A69907 /* CustomProgressBar.m */,
+				7F642C4C2165008E00A69907 /* CustomProgressBar.h */,
+				7F642C4D216500A400A69907 /* TableViewDataSource.m */,
+				7F642C4F216500B200A69907 /* TableViewDataSource.h */,
+				7F642C202164FD3900A69907 /* Main.storyboard */,
+				7F642C232164FD3900A69907 /* Assets.xcassets */,
+				7F642C252164FD3900A69907 /* LaunchScreen.storyboard */,
+				7F642C282164FD3900A69907 /* Info.plist */,
+				7F642C172164FD3900A69907 /* Supporting Files */,
+			);
+			path = OneTrak;
+			sourceTree = "<group>";
+		};
+		7F642C172164FD3900A69907 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7F642C182164FD3900A69907 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7F642C302164FD3A00A69907 /* OneTrakTests */ = {
+			isa = PBXGroup;
+			children = (
+				7F642C312164FD3A00A69907 /* OneTrakTests.m */,
+				7F642C332164FD3A00A69907 /* Info.plist */,
+			);
+			path = OneTrakTests;
+			sourceTree = "<group>";
+		};
+		7F642C3B2164FD3A00A69907 /* OneTrakUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7F642C3C2164FD3A00A69907 /* OneTrakUITests.m */,
+				7F642C3E2164FD3A00A69907 /* Info.plist */,
+			);
+			path = OneTrakUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7F642C132164FD3900A69907 /* OneTrak */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F642C412164FD3A00A69907 /* Build configuration list for PBXNativeTarget "OneTrak" */;
+			buildPhases = (
+				7F642C102164FD3900A69907 /* Sources */,
+				7F642C112164FD3900A69907 /* Frameworks */,
+				7F642C122164FD3900A69907 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OneTrak;
+			productName = OneTrak;
+			productReference = 7F642C142164FD3900A69907 /* OneTrak.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7F642C2C2164FD3A00A69907 /* OneTrakTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F642C442164FD3A00A69907 /* Build configuration list for PBXNativeTarget "OneTrakTests" */;
+			buildPhases = (
+				7F642C292164FD3A00A69907 /* Sources */,
+				7F642C2A2164FD3A00A69907 /* Frameworks */,
+				7F642C2B2164FD3A00A69907 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7F642C2F2164FD3A00A69907 /* PBXTargetDependency */,
+			);
+			name = OneTrakTests;
+			productName = OneTrakTests;
+			productReference = 7F642C2D2164FD3A00A69907 /* OneTrakTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7F642C372164FD3A00A69907 /* OneTrakUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F642C472164FD3A00A69907 /* Build configuration list for PBXNativeTarget "OneTrakUITests" */;
+			buildPhases = (
+				7F642C342164FD3A00A69907 /* Sources */,
+				7F642C352164FD3A00A69907 /* Frameworks */,
+				7F642C362164FD3A00A69907 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7F642C3A2164FD3A00A69907 /* PBXTargetDependency */,
+			);
+			name = OneTrakUITests;
+			productName = OneTrakUITests;
+			productReference = 7F642C382164FD3A00A69907 /* OneTrakUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7F642C0C2164FD3900A69907 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "для интернета";
+				TargetAttributes = {
+					7F642C132164FD3900A69907 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 4GZ5T9GPNN;
+						ProvisioningStyle = Automatic;
+					};
+					7F642C2C2164FD3A00A69907 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 4GZ5T9GPNN;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7F642C132164FD3900A69907;
+					};
+					7F642C372164FD3A00A69907 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 4GZ5T9GPNN;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7F642C132164FD3900A69907;
+					};
+				};
+			};
+			buildConfigurationList = 7F642C0F2164FD3900A69907 /* Build configuration list for PBXProject "OneTrak" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7F642C0B2164FD3900A69907;
+			productRefGroup = 7F642C152164FD3900A69907 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7F642C132164FD3900A69907 /* OneTrak */,
+				7F642C2C2164FD3A00A69907 /* OneTrakTests */,
+				7F642C372164FD3A00A69907 /* OneTrakUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7F642C122164FD3900A69907 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F642C272164FD3900A69907 /* LaunchScreen.storyboard in Resources */,
+				7F642C242164FD3900A69907 /* Assets.xcassets in Resources */,
+				7F642C222164FD3900A69907 /* Main.storyboard in Resources */,
+				7F642C512165018E00A69907 /* SF-Pro-Display-Ultralight.otf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F642C2B2164FD3A00A69907 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F642C362164FD3A00A69907 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7F642C102164FD3900A69907 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F642C1F2164FD3900A69907 /* ViewController.m in Sources */,
+				7F642C1C2164FD3900A69907 /* AppDelegate.m in Sources */,
+				7F642C192164FD3900A69907 /* main.m in Sources */,
+				7F642C4B2165008500A69907 /* CustomProgressBar.m in Sources */,
+				7F642C4E216500A400A69907 /* TableViewDataSource.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F642C292164FD3A00A69907 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F642C322164FD3A00A69907 /* OneTrakTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F642C342164FD3A00A69907 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F642C3D2164FD3A00A69907 /* OneTrakUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7F642C2F2164FD3A00A69907 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7F642C132164FD3900A69907 /* OneTrak */;
+			targetProxy = 7F642C2E2164FD3A00A69907 /* PBXContainerItemProxy */;
+		};
+		7F642C3A2164FD3A00A69907 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7F642C132164FD3900A69907 /* OneTrak */;
+			targetProxy = 7F642C392164FD3A00A69907 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7F642C202164FD3900A69907 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7F642C212164FD3900A69907 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7F642C252164FD3900A69907 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7F642C262164FD3900A69907 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7F642C3F2164FD3A00A69907 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7F642C402164FD3A00A69907 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7F642C422164FD3A00A69907 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4GZ5T9GPNN;
+				INFOPLIST_FILE = OneTrak/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = testorg.OneTrak;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7F642C432164FD3A00A69907 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4GZ5T9GPNN;
+				INFOPLIST_FILE = OneTrak/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = testorg.OneTrak;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		7F642C452164FD3A00A69907 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 4GZ5T9GPNN;
+				INFOPLIST_FILE = OneTrakTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = testorg.OneTrakTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OneTrak.app/OneTrak";
+			};
+			name = Debug;
+		};
+		7F642C462164FD3A00A69907 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 4GZ5T9GPNN;
+				INFOPLIST_FILE = OneTrakTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = testorg.OneTrakTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OneTrak.app/OneTrak";
+			};
+			name = Release;
+		};
+		7F642C482164FD3A00A69907 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 4GZ5T9GPNN;
+				INFOPLIST_FILE = OneTrakUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = testorg.OneTrakUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = OneTrak;
+			};
+			name = Debug;
+		};
+		7F642C492164FD3A00A69907 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 4GZ5T9GPNN;
+				INFOPLIST_FILE = OneTrakUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = testorg.OneTrakUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = OneTrak;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7F642C0F2164FD3900A69907 /* Build configuration list for PBXProject "OneTrak" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F642C3F2164FD3A00A69907 /* Debug */,
+				7F642C402164FD3A00A69907 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7F642C412164FD3A00A69907 /* Build configuration list for PBXNativeTarget "OneTrak" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F642C422164FD3A00A69907 /* Debug */,
+				7F642C432164FD3A00A69907 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7F642C442164FD3A00A69907 /* Build configuration list for PBXNativeTarget "OneTrakTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F642C452164FD3A00A69907 /* Debug */,
+				7F642C462164FD3A00A69907 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7F642C472164FD3A00A69907 /* Build configuration list for PBXNativeTarget "OneTrakUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F642C482164FD3A00A69907 /* Debug */,
+				7F642C492164FD3A00A69907 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7F642C0C2164FD3900A69907 /* Project object */;
+}
